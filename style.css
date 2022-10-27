@@ -1,0 +1,116 @@
+h1 {
+	color: #69A4DE;
+	letter-spacing: 3px;
+font-family: font-family: font-family: 'Bebas Neue', cursive;
+text-align: center;
+text-shadow: 2px 2px 1px lightgrey;
+}
+
+p, a { font-family: 
+
+    }
+
+a { text-decoration: none;
+
+  
+}
+
+a:hover { 
+
+color:  deepskyblue;
+}
+ 
+
+body {font-family: 'Playfair Display', serif;
+	text-align: center;
+	background-image: url("image/fond2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+	
+
+
+img {
+	width: 250px;
+	border-radius: 50%;
+}
+
+li {
+	list-style: none;
+font-size: 32px;
+display:  inline;
+}
+
+ul { 
+padding: 0px }
+
+
+
+#kedge {width: 100px;
+	padding:  0px;
+
+}
+
+
+/*classes*/
+
+
+.btn-blue {
+	background-color: lightblue;
+	border: 1px solid lightblue;
+	color:  white;
+	padding: 12px 24px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+
+.btn-blue: hover {
+	background-color: white;
+	color: lightblue;
+	transition:  0.5s;
+}
+
+.card-white {
+	
+background-color: white; 
+border-radius: 6px;
+box-shadow: 10px 10px 5px rgba(30,30,30,0.3);
+margin: 30px;
+padding:  16px 16px;
+
+text-align:  center;
+border-top-style: ;
+
+}
+.card-white img {
+	width: 100px;
+
+}
+
+.container {
+	width:  700px;
+	margin:  0 auto;
+	padding:  16px ;
+}
+
+#card-img {
+	background-color: whitesmoke;
+	background-size: cover;
+	background-position: center;
+}
+
+/* media queries*/
+
+@media  (max-width:  900px) {
+	.container{
+		width:  450px;
+
+	}
+}
+
+@media (max-width:  500px){;
+	.container{
+		width:  250px;
+	}
+}
